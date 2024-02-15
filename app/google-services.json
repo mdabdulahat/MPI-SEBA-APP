@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23597762326",
+    "project_id": "mymensingh-polytechnic",
+    "storage_bucket": "mymensingh-polytechnic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23597762326:android:c7f3adfdc945365fe53237",
+        "android_client_info": {
+          "package_name": "com.mpi.mpiseba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbPXYM2DCnX68g3aFvRo6KDUklJon_Eus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

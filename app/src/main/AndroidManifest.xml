@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaguraOnlineSeba"
+        tools:targetApi="31">
+        <activity
+            android:name=".Alart"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".SucsesPage"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Rutinpw"
+            android:exported="false" />
+        <activity
+            android:name=".Rutinmac"
+            android:exported="false" />
+        <activity
+            android:name=".Rutinet"
+            android:exported="false" />
+        <activity
+            android:name=".Rutincom"
+            android:exported="false" />
+        <activity
+            android:name=".Rutincivil"
+            android:exported="false" />
+        <activity
+            android:name=".Inforubat"
+            android:exported="false" />
+        <activity
+            android:name=".Infonon"
+            android:exported="false" />
+        <activity
+            android:name=".Infoetm"
+            android:exported="false" />
+        <activity
+            android:name=".Infopw"
+            android:exported="false" />
+        <activity
+            android:name=".Infomac"
+            android:exported="false" />
+        <activity
+            android:name=".Infoetn"
+            android:exported="false" />
+        <activity
+            android:name=".Infoet"
+            android:exported="false" />
+        <activity
+            android:name=".Infocom"
+            android:exported="false" />
+        <activity
+            android:name=".Infocivil"
+            android:exported="false" />
+        <activity
+            android:name=".pdfetmstu"
+            android:exported="false" />
+        <activity
+            android:name=".pdfpwstu"
+            android:exported="false" />
+        <activity
+            android:name=".pdfmacstu"
+            android:exported="false" />
+        <activity
+            android:name=".pdfetnstu"
+            android:exported="false" />
+        <activity
+            android:name=".pdfetstu"
+            android:exported="false" />
+        <activity
+            android:name=".pdfcomstu"
+            android:exported="false" />
+        <activity
+            android:name=".pdfcivistu"
+            android:exported="false" />
+        <activity
+            android:name=".Information"
+            android:exported="false" />
+        <activity
+            android:name=".Nonoffice1"
+            android:exported="false" />
+        <activity
+            android:name=".Nonteacher2"
+            android:exported="true" />
+        <activity
+            android:name=".Nonteacher1"
+            android:exported="true" />
+        <activity
+            android:name=".Findjob"
+            android:exported="false" />
+        <activity
+            android:name=".Rubat"
+            android:exported="false" />
+        <activity
+            android:name=".allCaptain"
+            android:exported="false" />
+        <activity
+            android:name=".ETMteacher2"
+            android:exported="false"
+            android:label="@string/title_activity_etmteacher2"
+            android:theme="@style/Theme.MaguraOnlineSeba" />
+        <activity
+            android:name=".ETMteacher1"
+            android:exported="false" />
+        <activity
+            android:name=".ETMoffice1"
+            android:exported="false" />
+        <activity
+            android:name=".Pwoffice1"
+            android:exported="false" />
+        <activity
+            android:name=".Macoffice1"
+            android:exported="false" />
+        <activity
+            android:name=".Pwteacher2"
+            android:exported="false" />
+        <activity
+            android:name=".Pwteacher1"
+            android:exported="false" />
+        <activity
+            android:name=".Macteacher2"
+            android:exported="false" />
+        <activity
+            android:name=".Macteacher1"
+            android:exported="false" />
+        <activity
+            android:name=".ETNoffice1"
+            android:exported="false" />
+        <activity
+            android:name=".ETNteacher2"
+            android:exported="false" />
+        <activity
+            android:name=".ETNteacher1"
+            android:exported="false" />
+        <activity
+            android:name=".Privecy"
+            android:exported="false" />
+        <activity
+            android:name=".EToffice1"
+            android:exported="false" />
+        <activity
+            android:name=".ETteacher2"
+            android:exported="false" />
+        <activity
+            android:name=".ETteacher1"
+            android:exported="false" />
+        <activity
+            android:name=".Comteacher2"
+            android:exported="false" />
+        <activity
+            android:name=".Comoffice1"
+            android:exported="false" />
+        <activity
+            android:name=".Comteacher1"
+            android:exported="false" />
+        <activity
+            android:name=".Teachers2"
+            android:exported="false" />
+        <activity
+            android:name=".Civilofice1sift"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".OTPVerification"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login3"
+            android:exported="false" />
+        <activity
+            android:name=".Teachercivilsift1"
+            android:exported="false" />
+        <activity
+            android:name=".About_app"
+            android:exported="false" />
+        <activity
+            android:name=".Developer"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".Service_3"
+            android:exported="false" />
+        <activity
+            android:name=".Service_11"
+            android:exported="false" />
+        <activity
+            android:name=".Service_10"
+            android:exported="false" />
+        <activity
+            android:name=".Service_9"
+            android:exported="false" />
+        <activity
+            android:name=".Service_8"
+            android:exported="false" />
+        <activity
+            android:name=".Service_6"
+            android:exported="false" />
+        <activity
+            android:name=".Service_7"
+            android:exported="false" />
+        <activity
+            android:name=".Service_5"
+            android:exported="false" />
+        <activity
+            android:name=".Service_4"
+            android:exported="false" />
+        <activity
+            android:name=".Service_2"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Web_browser"
+            android:exported="false" />
+        <activity
+            android:name=".Service"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            tools:ignore="ExtraText" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_APP_ID" />
+    </application>
+
+</manifest>

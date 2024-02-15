@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/pagebkg"
+    tools:context=".SignupActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="10dp"
+                android:background="#ffffff">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Student Profile Create"
+                    android:fontFamily="@font/regular"
+                    android:inputType="text"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#7C86E4"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <Button
+                        android:id="@+id/profileupload"
+                        android:layout_width="220dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/regular"
+                        android:text="Upload Profile Pic"
+                        android:textSize="20sp"
+                        app:cornerRadius="8dp" />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/white"
+                        app:cardCornerRadius="60dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="3dp"
+                            android:backgroundTint="@color/black"
+                            app:cardCornerRadius="60dp">
+
+                            <ImageView
+                                android:id="@+id/khonfa"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/imageno" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/editName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_back_dark_blue5"
+                    android:hint="Full Name"
+                    android:fontFamily="@font/regular"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/editUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_back_dark_blue5"
+                    android:hint="Board roll"
+                    android:fontFamily="@font/regular"
+                    android:maxLines="1"
+                    android:inputType="phone"
+                    android:textSize="18sp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+
+                <EditText
+                    android:id="@+id/editDepartment"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_back_dark_blue5"
+                    android:hint="Department"
+                    android:fontFamily="@font/regular"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/editSemister"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_back_dark_blue5"
+                    android:hint="Semister"
+                    android:fontFamily="@font/regular"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+
+                <EditText
+                    android:id="@+id/editShift"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_back_dark_blue5"
+                    android:hint="Shift"
+                    android:fontFamily="@font/regular"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/editEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_back_dark_blue5"
+                    android:hint="Phone number"
+                    android:fontFamily="@font/regular"
+                    android:maxLines="1"
+                    android:inputType="phone"
+                    android:textSize="18sp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_back_dark_blue5"
+                    >
+
+                    <EditText
+                        android:id="@+id/editPassword"
+                        android:layout_toStartOf="@+id/passwordIcon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/round_back_dark_blue5"
+                        android:fontFamily="@font/regular"
+                        android:hint="Password"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:textSize="18sp"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/passwordIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:padding="10dp"
+                        android:src="@drawable/password_show"
+                        android:adjustViewBounds="true"
+                        android:layout_marginEnd="20dp"
+                        />
+
+
+                </RelativeLayout>
+
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#00008A"
+                    android:fontFamily="@font/regular"
+                    android:text="Save"
+                    android:textSize="20sp"
+                    app:cornerRadius="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/loginRedirectText"
+                    android:text="Already an user? Login"
+                    android:fontFamily="@font/regular"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#00008A"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/pagebkg"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_gravity="center_vertical"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:padding="24dp"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/mpilogo"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Student Profile Login"
+                    android:fontFamily="@font/regular"
+                    android:textSize="27sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/lavender"/>
+
+
+                <EditText
+                    android:id="@+id/login_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:background="@drawable/round_back_dark_blue5"
+                    android:hint="Type your board roll"
+                    android:fontFamily="@font/regular"
+                    android:maxLines="1"
+                    android:inputType="number"
+                    android:textSize="18sp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_marginTop="28dp"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/round_back_dark_blue5"
+                    >
+
+
+
+                    <EditText
+                        android:id="@+id/login_password"
+                        android:layout_toStartOf="@+id/passwordIcon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/round_back_dark_blue5"
+                        android:fontFamily="@font/regular"
+                        android:hint="Password"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:textSize="18sp"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/passwordIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:padding="10dp"
+                        android:src="@drawable/password_show"
+                        android:adjustViewBounds="true"
+                        android:layout_marginEnd="20dp"
+                        />
+
+
+                </RelativeLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Login"
+                    android:fontFamily="@font/regular"
+                    android:id="@+id/login_button"
+                    android:textSize="23sp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/lavender"
+                    app:cornerRadius = "20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fogetpassText"
+                    android:text="Forget Password"
+                    android:fontFamily="@font/regular"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/lavender"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/signupRedirectText"
+                    android:text="Not yet registered?   Sign Up"
+                    android:fontFamily="@font/regular"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/lavender"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>

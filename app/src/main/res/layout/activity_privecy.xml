@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/Service3"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/app_themecolor"
+            >
+
+            <ImageView
+                android:id="@+id/back3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back"
+                />
+            <TextView
+                android:fontFamily="@font/regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:paddingEnd="60dp"
+                android:textStyle="bold"
+                />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#F4F4F4"
+                android:padding="10dp"
+
+                >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Privacy Policy for All Status app - 2023"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_marginBottom="2dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Last Updated: 10-13-2023"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1. Introduction"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome to MPI - Mymensingh Polytechnic Institute. We respect your privacy and are committed to protecting your personal information. This Privacy Policy outlines the types of personal information we collect, how we use it, and your rights regarding your data. By using the App, you agree to the practices described in this Privacy Policy."
+                        android:textSize="19dp"
+                        android:textColor="#000000"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="2. Information We Collect"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="a. User-Provided Information:- \n\We may collect information that you voluntarily provide when using the App. This may include your name, profile picture, phone number, and any other information you choose to share within the App."
+                                android:textSize="19dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="b. Automatically Collected Information:- We may collect certain information automatically, such as your device's unique identifier, IP address, operating system, and app usage data."
+                                android:textSize="20dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="19dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="3. How We Use Your Information"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="a. To Provide and Personalize Services:- \n\To provide you with our services, personalize your experience, and improve the App's functionality."
+                                android:textSize="19dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="b. Communication:- To communicate with you regarding updates, support, and other matters related to the App."
+                                android:textSize="19dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="c. Analytics:- To analyze user behavior and usage patterns to improve our services."
+                                android:textSize="20dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="19dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="4. Sharing of Your Information"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="a. With Your Consent:- \n\We will share your information with third parties only with your explicit consent."
+                                android:textSize="19dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="b. Service Providers:- We may share your information with trusted service providers who assist us in providing and maintaining the App. These providers are contractually obligated to keep your information confidential."
+                                android:textSize="19dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="c. Legal Compliance:- We may disclose your information to comply with applicable laws and regulations, or to protect our rights, privacy, safety, or property."
+                                android:textSize="19dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="5. Your Rights and Choices"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="a. Access and Correct Your Information:- \n\You can access and correct your personal information within the App's settings."
+                                android:textSize="19dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="b. Data Deletion:- \n\You can request the deletion of your account and associated data by contacting us at amdabdul879@gmail.com."
+                                android:textSize="19dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="c. Opt-Out:- \n\You can opt-out of receiving marketing communications by following the instructions provided in those communications."
+                                android:textSize="19dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="6. Security"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="We take appropriate measures to protect your personal information. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security."
+                                android:textSize="19dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="7. Changes to this Privacy Policy"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="We may update this Privacy Policy to reflect changes in our practices. Please review this policy periodically. If we make significant changes, we will notify you through the App or via email."
+                                android:textSize="19dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="8. Contact Us"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="If you have any questions or concerns about this Privacy Policy, please contact us at amdabdul879@gmail.com."
+                                android:textSize="19dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Thank you for using MPI - Mymensingh Polytechnic Institute. We appreciate your trust in us to protect your privacy."
+                                android:textSize="20dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="19dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Md Abdul Ahat\n\All Status app-2023\n\amdabdul879@gmail.com"
+                                android:textSize="20dp"
+                                android:textColor="#000000"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="20dp"
+                                />
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

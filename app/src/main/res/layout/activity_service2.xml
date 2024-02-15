@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Service_2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/Service2"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/layBottomBanner"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/app_themecolor"
+            >
+
+            <ImageView
+                android:id="@+id/back2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back"
+                />
+            <TextView
+                android:fontFamily="@font/regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="অধ্যক্ষের বাণী"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="25dp"
+                />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <androidx.cardview.widget.CardView
+            android:backgroundTint="#E5F0F4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            app:cardCornerRadius="100dp"
+            app:cardElevation="0dp"
+            android:outlineSpotShadowColor="#009688"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/principal2"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#AFADAD"
+            />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:backgroundTint="#E5F0F4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="15dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="0dp"
+                        android:outlineSpotShadowColor="#009688"
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:justificationMode="inter_word"
+                                android:padding="20dp"
+                                android:text="ময়মনসিংহ পলিটেকনিক ইনস্টিটিউ (MPI) এর পক্ষ থেকে আমার আন্তরিক স্বাগত। ময়মনসিংহ পলিটেকনিক ইনস্টিটিউট 1963 সালে মাসকান্দা, সদর, ময়মনসিংহে প্রতিষ্ঠিত হয়। সিভিল, ইলেকট্রিক্যাল, মেকানিক্যাল, পাওয়ার, ইলেকট্রনিক্স, কম্পিউটার এবং ইলেক্ট্রো-মেডিকেল টেকনোলজি নামে 07 (সাত) প্রযুক্তি রয়েছে। ২৭.৪ একর জমির এই বৃহৎ প্রতিষ্ঠানে একাডেমিক ভবন, ওয়ার্কশপ/ল্যাবরেটরি এবং সেরা শিক্ষা সুবিধা রয়েছে। এখানে দুটি বয়েজ হোস্টেল এবং একটি মেয়েদের হোস্টেল রয়েছে। পড়াশোনার পাশাপাশি সব ধরনের আবাসিক সুবিধা পাচ্ছেন তারা। শিক্ষক-কর্মচারীদের জন্য ক্যাম্পাসে একটি আবাসিক ভবন রয়েছে। এখানে রয়েছে জ্ঞানার্জনের জন্য বিশাল বই সমৃদ্ধ একটি কমোডস লাইব্রেরি, প্রতিষ্ঠানের প্রবেশ পথের পাশে একটি মসজিদ, সাংস্কৃতিক অধ্যয়নের জন্য একটি বড় অডিটোরিয়াম এবং একটি বড় খেলার মাঠ। বাংলাদেশের কারিগরি ও সামাজিক উন্নয়নের জন্য যথাযথ দিকনির্দেশনা ও কাউন্সেলিং বজায় রেখে বাংলাদেশ কারিগরি শিক্ষা অধিদপ্তর কর্তৃক উন্নত মানসম্পন্ন কারিগরি শিক্ষা প্রদানের জন্য আমরা সর্বদা আন্তরিক প্রচেষ্টা চালিয়ে যাচ্ছি। আমরা সরকারের TVET সম্পর্কিত এজেন্ডার মিশন ও ভিশন বাস্তবায়নে প্রতিশ্রুতিবদ্ধ। আপনাদের সকলকে আমার শুভেচ্ছা।"
+                                android:textColor="#474646"
+                                android:textSize="22sp" />
+
+
+                        </LinearLayout>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:backgroundTint="#E5F0F4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="15dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="0dp"
+                        android:outlineSpotShadowColor="#009688"
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="20dp"
+                                android:text="মোঃ শওকত হোসেন \n\অধ্যক্ষ \n\ময়মনসিংহ পলিটেকনিক ইনস্টিটিউট"
+                                android:textColor="#474646"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                />
+
+
+                        </LinearLayout>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+    <!-- Banner ad     ************************************ -->
+
+    <LinearLayout
+        android:id="@+id/layBottomBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:background="#F4F4F4"
+        >
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_BANNER_UNIT_ID">
+        </com.google.android.gms.ads.AdView>
+
+
+    </LinearLayout>
+</RelativeLayout>

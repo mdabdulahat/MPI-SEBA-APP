@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_app">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/AboutApp"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/app_themecolor"
+            >
+
+            <ImageView
+                android:id="@+id/back_about"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back"
+                />
+            <TextView
+                android:fontFamily="@font/regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="অ্যাপ সম্পর্কে"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:backgroundTint="#E5F0F4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="0dp"
+                    android:outlineSpotShadowColor="#009688"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="আসসালামু আলাইকুম। প্রিয় ছাত্র ও ছাত্রী ভাই আমাদের এই অনলাইন সেবামূলক অ্যাপটিতে যুক্ত হওয়ার জন্য আপনাদের সবাইকে জানাই স্বাগতম।
+আপনাদের সুবিধার কথা চিন্তা করে ময়মনসিংহ পলিটেকনিক ইনস্টিটিউটের জন্য এই অনলাইন সেবামূলক অ্যাপটি তৈরি করা। অ্যাপটি  ব্যবহার করে আপনার কেমন
+লাগছে সেটা আমাদের সাথে শেয়ার করতে পারেন। অ্যাপটি ব্যবহারে কোনো রকম সমস্যা অনুভব করলে অবশ্যই আমাদের সাথে যোগাযোগ করবেন ,আমরা সর্বোচ্চ চেষ্টা করে যাবো আপনাদের
+ভালো সার্ভিস দেওয়ার জন্য। অ্যাপটিতে যদি আপনারা কোনো সেবা যুক্ত করতে চান বা মনে করেন যে এই সেবাটি যুক্ত করলে আপনাদের
+উপকার হবে তাহলে অবশ্যই আমাদের জানাবেন আমরা সেই সেবাটি যুক্ত করার চেষ্টা করবো। ধন্যবাদ "
+                            android:textSize="22sp"
+                            android:textColor="#474646"
+                            android:padding="20dp"
+                            android:justificationMode="inter_word"
+                            />
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#AFADAD"
+                    />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

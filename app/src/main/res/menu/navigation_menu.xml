@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+
+        android:checkableBehavior="single">
+        <item android:title="Task">
+            <menu>
+
+                <item
+                    android:id="@+id/Developer"
+                    android:icon="@drawable/developer2"
+                    android:title="About Developer"
+
+                    />
+
+                <item
+                    android:id="@+id/mAbout"
+                    android:icon="@drawable/aboutphone"
+                    android:title="About App" />
+
+                <item
+                    android:id="@+id/mShare"
+                    android:icon="@drawable/baseline_share_24"
+                    android:title="Share App"
+                    />
+
+                <item
+                    android:id="@+id/mRate"
+                    android:icon="@drawable/rateapp"
+                    android:title="Rate us" />
+
+
+            </menu>
+
+
+        </item>
+
+
+    </group>
+
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item android:title="Student Profile">
+
+            <menu>
+
+                <item
+                    android:id="@+id/account"
+                    android:icon="@drawable/baseline_account_circle_24"
+                    android:title="Profile"
+                    />
+
+                <item
+                    android:id="@+id/Login"
+                    android:icon="@drawable/exit"
+                    android:title="Log In"
+                    />
+
+                <item
+                    android:id="@+id/registation"
+                    android:icon="@drawable/baseline_app_registration_24"
+                    android:title="Registation"
+                    />
+
+
+                <item
+                    android:id="@+id/message"
+                    android:icon="@drawable/comment1"
+                    android:title="Message"
+                    />
+
+            </menu>
+
+
+        </item>
+
+
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item android:title="Socal Information">
+
+            <menu>
+
+                <item
+                    android:id="@+id/viewresult"
+                    android:icon="@drawable/baseline_preview_24"
+                    android:title="View Result" />
+
+                <item
+                    android:id="@+id/website"
+                    android:icon="@drawable/baseline_web_asset_24"
+                    android:title="Website" />
+
+                <item
+                    android:id="@+id/facebook"
+                    android:icon="@drawable/facebook2"
+                    android:title="Facebook" />
+
+                <item
+                    android:id="@+id/youtube"
+                    android:icon="@drawable/youtube2"
+                    android:title="Youtube" />
+            </menu>
+
+
+        </item>
+
+
+    </group>
+
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="single">
+        <item android:title="More ">
+
+            <menu>
+
+                <item
+                    android:id="@+id/privecy"
+                    android:icon="@drawable/baseline_privacy_tip_24"
+                    android:title="Privacy policy" />
+
+                <item
+                    android:id="@+id/jobFind"
+                    android:icon="@drawable/baseline_find_in_page_24"
+                    android:title="Find Job"
+                    />
+
+
+                <item
+                    android:id="@+id/mExit"
+                    android:icon="@drawable/baseline_exit_to_app_24"
+                    android:title="Exit" />
+            </menu>
+
+
+        </item>
+
+
+    </group>
+
+
+</menu>
